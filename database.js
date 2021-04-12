@@ -28,10 +28,7 @@ MainCall.postData=(colName,dbObj)=>{
             if(err) throw err;
             console.log('Data Added');        })
     })
-
     return 'Data Added'
 }
-
-
 
 export default MainCall;
