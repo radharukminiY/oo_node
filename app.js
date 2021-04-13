@@ -4,7 +4,7 @@ const port = 8700;
 import database from './database';
 
 app.get('/getData',(req,res) => {
-    let output = database.getData('user');
+    let output = database.getData('rr');
     res.send(output)
 })
 

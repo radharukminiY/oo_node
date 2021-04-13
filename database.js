@@ -1,7 +1,7 @@
 import mongodb from 'mongodb';
 const MongoClient = mongodb.MongoClient;
 const url = "mongodb://localhost:27017";
-const dbName = "marchnode";
+const dbName = "nodejs";
 
 const MainCall = {};
 var output;
